@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;400;700&display=swap" rel="stylesheet">
+    
+    <title>Inicio</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+
+      <header class="row">
+        <nav class="navbar navbar-expand-lg navbar-light cabeza">
+          <div class="container-fluid">
+
+            <a class="navbar-brand ms-5" href="index.html">
+                <img class="logo mb-2" src="img/logo.png" alt="Logo">
+            </a>
+
+            <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">                 
+              <ul class="navbar-nav ms-auto me-5">
+                <li class="nav-item">
+                  <a class="nav-link active fs-5" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" aria-current="page" href="pages/info.html">Info</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" aria-current="page" href="pages/sucursales.html">Sucursales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" aria-current="page" href="pages/merch.html">Mangas & Merch</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" aria-current="page" href="pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+      </header>
+
+      <main class="row">
+            <div id="carouselExampleIndicators" class="carousel slide px-0" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/banner.jpg" class="d-block w-100 banner" alt="banner1">
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="img/banner1.jpg" class="d-block w-100 banner" alt="banner2">
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        
+            <section class="editorial container">
+                <div class="row row-cols-1 row-cols-md-3 g-5 editorial__div overflow-auto">
+                    <div class="col col-sm-6">
+                      <div class="card h-auto gap-4">
+                        <img src="img/ivrea.jpg" class="card-img-top editorial__img mx-auto d-block" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center fw-bold fs-4">Ivrea</h5>
+                          <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt temporibus minus, quae illum similique autem rerum hic possimus eum necessitatibus repellendus ipsa? Mollitia velit, quos architecto eligendi aliquam cum sit incidunt alias, aliquid eius amet ratione quam pariatur quo labore culpa ipsa beatae ut a quasi veniam placeat id! Nostrum.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-none d-sm-block col-sm-6">
+                      <div class="card h-auto gap-4">
+                        <img src="img/panini.png" class="card-img-top editorial__img mx-auto d-block" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center fw-bold fs-4">Panini</h5>
+                          <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt temporibus minus, quae illum similique autem rerum hic possimus eum necessitatibus repellendus ipsa? Mollitia velit, quos architecto eligendi aliquam cum sit incidunt alias, aliquid eius amet ratione quam pariatur quo labore culpa ipsa beatae ut a quasi veniam placeat id! Nostrum.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col d-none d-md-block">
+                      <div class="card h-auto gap-4">
+                        <img src="img/ovni.png" class="card-img-top editorial__img mx-auto d-block" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center fw-bold fs-4">Ovni</h5>
+                          <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt temporibus minus, quae illum similique autem rerum hic possimus eum necessitatibus repellendus ipsa? Mollitia velit, quos architecto eligendi aliquam cum sit incidunt alias, aliquid eius amet ratione quam pariatur quo labore culpa ipsa beatae ut a quasi veniam placeat id! Nostrum.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            
+            <section class="mangakas px-0">
+                <div>
+                    <img class="mangakas__img w-100 h-100" src="img/mangakas.png" alt="Mangakas">
+                </div>
+            </section>
+        
+            <section class="recomienda container">
+                <div class="recomienda__titulo">
+                    <h1>RECOMENDACIONES DEL DÍA</h1>
+                </div>
+                <div class="row row-cols-1 row-cols-md-4 row-cols-lg-4 g-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-xs-5">
+                      <div class="card h-auto gap-4 recomienda__div">
+                        <img src="img/manga2.jpg" class="recomienda__img card-img-top mx-auto d-block h-100 w-100" alt="...">
+                      </div>
+                    </div>
+                    <div class="col-12 d-none d-sm-block col-sm-6 col-md-4">
+                      <div class="card h-auto gap-4">
+                        <img src="img/manga4.jpeg" class="recomienda__img card-img-top mx-auto d-block w-100 h-100" alt="...">
+                      </div>
+                    </div>
+                    <div class="col-12 d-none d-md-block col-md-4">
+                      <div class="card h-auto gap-4">
+                        <img src="img/manga6.jpg" class="recomienda__img card-img-top mx-auto d-block w-100 h-100" alt="...">
+                      </div>
+                    </div>
+                    <div class="col-12 d-none d-lg-block col-md-4">
+                        <div class="card h-auto gap-4">
+                          <img src="img/manga8.png" class="recomienda__img card-img-top mx-auto d-block w-100 h-100" alt="...">
+                          </div>
+                        </div>
+                </div>
+            </section>
+      </main>
+            
+      <footer class="row">
+            <section class="pie">
+                <div class="col-6 ps-4">
+                    <form action="">
+                        <ul class="pie-lista">
+                            <li>
+                                <label for="newsletter">Newsletter:</label>
+                            </li>
+                            <li>
+                                <input type="text" required id="newsletter" name="newsletter" placeholder="example@email.com" class="w-50">
+                                <button class="btn btn-light btn-sm">Enviar..</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+        
+                <div class="col-6 text-end pe-5">
+                    <a href="https://www.instagram.com" target="_blank"><img class="redes"  src="img/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.whatsapp.com" target="_blank"><img class="redes" src="img/whatsapp.png" alt="WhatsApp"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img class="redes" src="img/facebook.png" alt="Facebook"></a>
+                </div>
+            </section>
+      </footer>
+      
+    </div>
+
+</body>
+</html>

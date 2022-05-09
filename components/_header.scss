@@ -1,0 +1,13 @@
+.cabeza {
+    width: 100%;
+    height: auto;
+    min-height: 120px;
+    background-color: #FFAD2C;
+    border-bottom: solid #B6500E 5px;
+
+    &__logo {
+        width: 70px;
+        height: 70px; 
+        margin-top: 10px;
+    }
+}

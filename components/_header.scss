@@ -2,8 +2,8 @@
     width: 100%;
     height: auto;
     min-height: 120px;
-    background-color: #FFAD2C;
-    border-bottom: solid #B6500E 5px;
+    background-color: $mainColor;
+    border-bottom: solid $borderColor 5px;
 
     &__logo {
         width: 70px;
